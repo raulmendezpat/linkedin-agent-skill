@@ -34,7 +34,12 @@ Install: copy this file to `~/.claude/linkedin/voice.md`. Fields marked
 - **Sentence length:** {{short and punchy / mixed / long and considered}}
 - **Emoji:** {{never / rarely}}
 - **Punctuation:** never use em dashes or en dashes as punctuation.
-- **Language:** English for LinkedIn posts unless asked otherwise.
+- **Language:** English for everything (posts, plans, notes).
+
+## Themes I want to be known for
+
+AI architecture, AI governance, responsible and ethical AI, cloud and
+integration architecture in government, architecture governance (TOGAF).
 
 ## My positions
 
