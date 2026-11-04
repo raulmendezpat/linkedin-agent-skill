@@ -88,7 +88,8 @@ def check_slop(text, lex):
     if not w:
         return 50.0, "empty"
     hits, found = 0, []
-    for entry in lex["words"] + lex["phrases"]:
+    keep = {k.lower() for k in lex.get("keep", [])}
+    for entry in [e for e in lex["words"] + lex["phrases"] if e["find"].lower() not in keep]:
         pattern = re.compile(r"\b" + re.escape(entry["find"]).replace(r"\ ", r"\s+") + r"\b",
                              re.IGNORECASE)
         n = len(pattern.findall(text))

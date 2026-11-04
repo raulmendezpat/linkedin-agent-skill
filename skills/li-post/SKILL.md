@@ -53,7 +53,9 @@ ship and why, in one sentence.
 
 **2. Draft the full post** on the strongest hook.
 
-**3. Humanize it.** Run the draft through `/li-human` before showing it. Every
+**3. Safety check, then humanize.** Run the draft through `/li-safe` first: it
+blocks anything that names confidential employer work. Then run it through
+`/li-human` before showing it. Every
 post from this skill ships humanized. That is not an optional extra step, it
 is the reason the draft is worth reading.
 

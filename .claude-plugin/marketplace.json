@@ -3,8 +3,8 @@
   "name": "linkedin-agent-skill",
   "description": "The LinkedIn agent skill pack for Claude",
   "owner": {
-    "name": "Jake Schincariol",
-    "url": "https://opusjake.ai"
+    "name": "Raul Mendez Patarroyo",
+    "url": "https://github.com/raulmendezpat"
   },
   "plugins": [
     {

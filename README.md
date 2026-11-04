@@ -1,4 +1,23 @@
-# The LinkedIn agent skill
+# The LinkedIn agent skill (fork)
+
+Fork of [Jakeschincariol/linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill)
+(MIT). Changes in this fork:
+
+- `/li-safe`: new skill. Checks every draft against Queensland public sector
+  social media obligations (no confidential projects, security details or
+  open procurement) before it is shown as copy-ready. `/li-post` runs it
+  before `/li-human`.
+- `/li-profile` career mode: scoring and rewrites aimed at recruiter search
+  for senior architecture roles, not at selling a service.
+- `/li-plan`: asks for the target role instead of "what you sell".
+- Humanizer `keep` list in `slop.json`: technical terms (robust, ecosystem...)
+  are no longer replaced.
+- `profiles/raul/voice.md`: personal voice profile.
+
+Original README follows.
+
+---
+
 
 Eleven Claude skills that run a LinkedIn account. Free, MIT, no signup, no API
 key, nothing to connect.
@@ -28,7 +47,7 @@ Install this skill, then confirm /li-post works.
 Or do it yourself, in Claude Code:
 
 ```bash
-git clone https://github.com/Jakeschincariol/linkedin-agent-skill.git
+git clone https://github.com/raulmendezpat/linkedin-agent-skill.git
 cp -r linkedin-agent-skill/skills/li-* ~/.claude/skills/
 ```
 

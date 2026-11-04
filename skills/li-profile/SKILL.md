@@ -21,6 +21,25 @@ experience entries, plus whether they have a banner and featured section. A
 screenshot of the top card is enough for the first pass. Do not log into
 LinkedIn on their behalf.
 
+## Career mode
+
+If the user is employed and the goal is visibility to recruiters and hiring
+managers (not selling a service), score and rewrite in career mode:
+
+- **Headline:** `{target role title} | {2 or 3 domains or platforms} | {one
+  proof point}`. Recruiters search LinkedIn by title and keyword, so the
+  target title must appear verbatim. The "who you help" formula does not
+  apply.
+- **About:** first two lines state the role, the scale and the domain. The
+  body is written to a hiring manager: problems solved, one or two outcomes
+  with numbers, current study, and how to reach out.
+- **Skills:** the top three must match the keywords in the job ads the user
+  is targeting. Ask for two or three of those ads, or use ones already in the
+  conversation, and list the keywords missing from the profile.
+- **Open to work:** mention the "recruiters only" setting as an option; never
+  change it.
+- Keep every employer detail inside what `/li-safe` allows.
+
 ## Score it
 
 Read `rubric.json` in this folder. Twelve items, 100 points, each with what

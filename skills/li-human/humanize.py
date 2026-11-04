@@ -129,7 +129,8 @@ def _match_case(src, repl):
 def pass_lexical(text, lex):
     """Replace slop words and phrases. Longest first so phrases win."""
     hits = []
-    entries = sorted(lex["phrases"] + lex["words"],
+    keep = {k.lower() for k in lex.get("keep", [])}
+    entries = sorted([e for e in lex["phrases"] + lex["words"] if e["find"].lower() not in keep],
                      key=lambda e: len(e["find"]), reverse=True)
     for entry in entries:
         find = entry["find"]

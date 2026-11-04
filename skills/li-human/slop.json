@@ -1,6 +1,13 @@
 {
   "version": "1.0",
   "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. Edit freely - it is meant to be yours.",
+  "keep_note": "Terms listed in 'keep' are never replaced or counted, because in solution architecture writing they are precise technical vocabulary, not filler. Edit freely.",
+  "keep": [
+    "robust",
+    "ecosystem",
+    "holistic",
+    "paradigm"
+  ],
   "invisible": [
     {
       "cp": "U+200B",

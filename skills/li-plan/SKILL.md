@@ -18,7 +18,9 @@ If `~/.claude/linkedin/voice.md` and `log.md` exist, read them - the plan
 should not repeat a theme from the last fortnight. If they do not exist, ask
 for four things and write them down:
 
-1. What the user sells, and to whom.
+1. What the user sells, and to whom. If the user is an employee building a
+   career profile rather than selling a service, ask instead: the next role
+   they want, and who hires for it (recruiters, hiring managers, CIOs).
 2. The three or four themes they want to be known for.
 3. What actually happened this week - a client call, a number, a mistake, a
    thing they built, an argument they had. This is where posts come from.
@@ -37,7 +39,7 @@ Mix across the week, never two of the same type back to back:
 | **Opinion** | 1 per week | a position that could lose you followers |
 | **Teach** | 1 per week | one thing the reader can do today |
 | **Story** | 1 per fortnight | a scene with dialogue and a cost |
-| **Offer** | 1 per fortnight | what you sell, said plainly, no apology |
+| **Offer** | 1 per fortnight | what you sell, said plainly, no apology. For a career profile: what problems you solve and the kind of role you are open to |
 
 For each slot give: the theme, the specific angle drawn from what actually
 happened this week, and the hook formula number from `li-post/hooks.json` that
