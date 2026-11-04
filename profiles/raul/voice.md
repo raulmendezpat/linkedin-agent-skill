@@ -17,7 +17,7 @@ Install: copy this file to `~/.claude/linkedin/voice.md`. Fields marked
 
 ## Background I can use
 
-- 24+ years in ICT: Queensland government, financial services (Citibank
+- 25+ years in ICT: Queensland government, financial services (Citibank
   Latin America, TransUnion) and consulting.
 - Master of Data Science, University of Queensland (Dean's Commendation, 2021).
 - Master of Systems and Computer Science, Universidad de Los Andes.
@@ -51,4 +51,17 @@ Install: copy this file to `~/.claude/linkedin/voice.md`. Fields marked
 
 ## Proof I can use
 
-- {{real, publishable outcomes with numbers}}
+Already public on the LinkedIn profile, so safe to reuse:
+- $250K+ in annual savings delivered.
+- About 30% OPEX reduction through a cloud migration.
+- 100% compliance in an ACCC audit.
+- Leads architecture across a multi-million dollar emergency services
+  portfolio (do not state the exact figure).
+
+## Current profile (Nov 2026)
+
+- **Headline:** Solution Architect Lead, Queensland Government | Enterprise
+  Architect | AWS, Azure, Data and AI | Architecture governance that gets
+  decisions made
+- **Banner line:** Architecture that turns complexity into decisions.
+- **Open to work:** recruiters only. Never mention job hunting in public posts.
